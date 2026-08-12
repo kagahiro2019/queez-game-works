@@ -157,8 +157,7 @@ async function sendMessage() {
 
   try {
 
-    const response = await fetch(
-      "http://127.0.0.1:8000/chat",
+    const response = await fetch("https://queez-game-works-git-576440453459.europe-west1.run.app/chat", 
       {
         method: "POST",
 
